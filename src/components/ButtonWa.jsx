@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export const ButtonWa = () => {
-  const phoneNumber = "573162997477"; // Cambia por el número de tu empresa (con código de país, sin +)
+  const phoneNumber = "573162997477"; 
   const message = "¡Hola! Estoy interesado en conocer más sobre los servicios de GRAMI.";
 
   const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
